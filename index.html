@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Page</title>
+    <link rel="icon" href="SVG/icons8-spotify-logo-48.png">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/utility.css" />
+</head>
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+          <div class="cross">
+            <img class="invert" src="SVG/cross.svg" alt="">
+          </div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="SVG/logo.svg" alt="" /></div>
+                <ul>
+                    <li><img class="invert" src="SVG/home.svg" alt="home" />Home</li>
+                    <li class="search"><img class="invert" src="SVG/search.svg" alt="home" />Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert"  src="SVG/library.svg" alt="" />
+                    <h4>
+                        Your library
+                    </h4>
+                  </div>
+                    <div class="SongsList">
+                      <ul>
+                      </ul>
+                    </div>
+                <div class="footer">
+                  <div><a href="https://www.spotify.com/in-en/legal/" target="_blank"><span>Legal</span></a></div>   
+                  <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" target="_blank"><span>Privacy Center</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" target="_blank" ><span>Privacy Policy<span></a> </div>
+                  <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" target="_blank"><span>Cookies</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" target="_blank"><span>About Ads</span></a></div>
+                  <div><a href="https://www.spotify.com/in-en/accessibility/" target="_blank"><span>Accessibility</span></a></div>
+              </div>
+            </div>
+        </div>
+        <div class="right bg-grey rounded">
+          <div class="header">
+            <div class="nav">
+            <img class="invert hamburger" src="SVG/Hamburger.svg" alt="">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+                  <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="buttons">
+              <button class="signup">Sign up</button>
+              <button class="login">Log in</button>
+            </div>
+          </div>
+            <div class="spotify-Playlists">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                  <div data-folder="TopHit's" class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card3.jpeg" alt="Image1">
+                        <h4>Today's Top Hits</h4>
+                        <p>Dua Lipa is on top of the Hottest 50!</p>
+                        </div> 
+                  
+                  <div data-folder="Kiara" class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card2.webp" alt="Image1">
+                        <h4>Kiara Advani Hits</h4>
+                        <p>By Spotify</p>
+                        </div>
+                  
+                        <div data-folder="Ariana" class="card">
+                          <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                              </svg>
+                                </div>
+                              <img src="Images/Card1.jpeg" alt="Image1">
+                              <h4>Mega Hit Mix</h4>
+                              <p>A mega mix of 75 favorites from last few years! </p>
+                              </div>
+                  <div data-folder="Chillout"   class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card4.jpeg" alt="Image1">
+                        <h4>Chillout Lounge</h4>
+                        <p>Just lean back and enjoy relaxed beats. </p>
+                        </div>
+                  <div data-folder="2020's" class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card5.jpeg" alt="Image1">
+                        <h4>All out 2020's</h4>
+                        <p>The biggest songs of the 2020's.</p>
+                        </div>
+                  <div data-folder="cn" class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card6.jpeg" alt="Image1">
+                        <h4>Chill Hits</h4>
+                        <p>kick back to the best new and recent chill hits.</p>
+                        </div>
+                  <div class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card7.jpeg" alt="Image1">
+                        <h4>Shraddha Kapoor Mix </h4>
+                        <p>By spotify</p>
+                        </div>
+                  <div class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card8.jpeg" alt="Image1">
+                        <h4>Sun Saathiyaa</h4>
+                        <p>Shraddha Hits</p>
+                        </div>
+                  <div class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card9.jpeg" alt="Image1">
+                        <h4>ALIA BHATT - Top ...</h4>
+                        <p>By DRB </p>
+                        </div>
+
+                        <div class="card ">
+                          <div class="play">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                            </svg>
+                          </div>
+                          <img src="Images/Card10.jpeg" alt="Image1">
+                          <h4>PINKCHELLA (live) </h4>
+                          <p></p>
+                       </div>
+                          
+                  <div class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card11.jpeg" alt="Image1">
+                        <h4>Happy Folks</h4>
+                        <p>Brighten your day with a mix of folksy mood boosters.</p>
+                        </div>
+                  <div class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card12.jpeg" alt="Image1">
+                        <h4>Selena Gomez Mix</h4>
+                        <p>By Spotify</p>
+                        </div>
+                  <div class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card13.jpeg" alt="Image1">
+                        <h4>Bollywood Central</h4>
+                        <p>By Spotify</p>
+                        </div>
+                  <div class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card14.jpeg" alt="Image1">
+                        <h4>ALl out10's Hindi</h4>
+                        <p>By Spotify</p>
+                        </div>
+                  <div class="card ">
+                    <div class="play">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M5 20V4L19 12L5 20Z" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                          </div>
+                        <img src="Images/card15.jpeg" alt="Image1">
+                        <h4>An Elegant Affair</h4>
+                        <p>Big bands and tuxedos.The playlist for the...</p>
+                        </div>
+                </div>
+                <div class="playbar">
+                  <div class="seekbar">
+                    <div class="circle"></div>
+                  </div>
+                  <div class="abovebar">
+
+                    <div class="songinfo">
+                    </div>
+                    <div class="songbuttons">
+                      <img width="30" id="previous" src="SVG/preButton.svg" alt="">
+                      <img width="30" id="play" src="SVG/playbutton.svg" alt="">
+                      <img width="30" id="next" src="SVG/nextSong.svg" alt="">
+                    </div>
+                    <div class="TimenVol">
+                      <div class="songtime">
+                      </div>
+                      <div class="volume invert">
+                        <img src="SVG/volume.svg" alt="">
+                        <div class="range">
+                          <input type="range" name="volume">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Script/Script.js"></script>
+</body>
+</html>
